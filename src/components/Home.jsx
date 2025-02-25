@@ -1,7 +1,7 @@
 
 
 
-const Main = () => {
+const Home = () => {
 
   return (
     <div className="relative">
@@ -57,4 +57,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default Home
