@@ -42,7 +42,7 @@ const Home = () => {
 
               {/* Stats Cards */}
               <div className="absolute -bottom-6 -left-6 bg-white text-gray-800 p-3 sm:p-4 rounded-xl shadow-lg">
-                <h3 className="text-xl sm:text-2xl font-bold text-blue-600">250M+</h3>
+                <h3 className="text-xl sm:text-2xl font-bold text-indigo-900">250M+</h3>
                 <p className="text-xs sm:text-sm">Phone Numbers</p>
               </div>
               <div className="absolute -top-6 -right-6 bg-white text-gray-800 p-3 sm:p-4 rounded-xl shadow-lg">
@@ -53,6 +53,36 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <section>
+        <div className="container mx-auto max-w-6xl py-16 px-4">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#492385] text-center mb-12">How It Works</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="flex flex-col items-center justify-center bg-white text-gray-800 py-8 px-6 rounded-xl shadow-lg">
+              <div className="bg-gray-300 w-20 h-20 rounded-full flex items-center justify-center mb-6">
+                <img src="src/assets/how-1.png" />
+              </div>
+              <h3 className="text-xl font-bold mb-3">Get Started</h3>
+              <p className="text-center text-sm">Create an account with us and get instant access to our database of phone numbers.</p>
+            </div>
+            <div className="flex flex-col items-center justify-center bg-white text-gray-800 py-8 px-6 rounded-xl shadow-lg">
+              <div className="bg-gray-300 w-20 h-20 rounded-full flex items-center justify-center mb-6">
+                <img src="src/assets/how-2.png" />
+              </div>
+              <h3 className="text-xl font-bold mb-3">Make Payment</h3>
+              <p className="text-center text-sm">Use our search filters to find phone numbers based on location, industry, and more.</p>
+            </div>
+            <div className="flex flex-col items-center justify-center bg-white text-gray-800 py-8 px-6 rounded-xl shadow-lg">
+              <div className="bg-gray-300 w-20 h-20 rounded-full flex items-center justify-center mb-6">
+                <img src="src/assets/how-3.png" />
+              </div>
+              <h3 className="text-xl font-bold mb-3">Download</h3>
+              <p className="text-center text-sm">Download the phone numbers you need and start reaching out to potential customers.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </div>
   )
 }
