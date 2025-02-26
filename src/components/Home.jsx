@@ -54,26 +54,26 @@ const Home = () => {
         </div>
       </section>
 
-      <section>
+      {/* <section>
         <div className="container mx-auto max-w-6xl py-16 px-4">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#492385] text-center mb-12">How It Works</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="flex flex-col items-center justify-center bg-white text-gray-800 py-8 px-6 rounded-xl shadow-lg">
-              <div className="bg-gray-300 w-20 h-20 rounded-full flex items-center justify-center mb-6">
+            <div className="flex text-white flex-col items-center justify-center bg-indigo-900 py-8 px-6 rounded-xl shadow-lg">
+              <div className=" bg-gray-300 w-20 h-20 rounded-full flex items-center justify-center mb-6">
                 <img src="src/assets/how-1.png" />
               </div>
               <h3 className="text-xl font-bold mb-3">Get Started</h3>
               <p className="text-center text-sm">Create an account with us and get instant access to our database of phone numbers.</p>
             </div>
-            <div className="flex flex-col items-center justify-center bg-white text-gray-800 py-8 px-6 rounded-xl shadow-lg">
-              <div className="bg-gray-300 w-20 h-20 rounded-full flex items-center justify-center mb-6">
+            <div className="flex text-white flex-col items-center justify-center bg-indigo-900 py-8 px-6 rounded-xl shadow-lg">
+              <div className=" bg-gray-300 w-20 h-20 rounded-full flex items-center justify-center mb-6">
                 <img src="src/assets/how-2.png" />
               </div>
               <h3 className="text-xl font-bold mb-3">Make Payment</h3>
               <p className="text-center text-sm">Use our search filters to find phone numbers based on location, industry, and more.</p>
             </div>
-            <div className="flex flex-col items-center justify-center bg-white text-gray-800 py-8 px-6 rounded-xl shadow-lg">
-              <div className="bg-gray-300 w-20 h-20 rounded-full flex items-center justify-center mb-6">
+            <div className="flex text-white flex-col items-center justify-center bg-indigo-900 py-8 px-6 rounded-xl shadow-lg">
+              <div className=" bg-gray-300 w-20 h-20 rounded-full flex items-center justify-center mb-6">
                 <img src="src/assets/how-3.png" />
               </div>
               <h3 className="text-xl font-bold mb-3">Download</h3>
@@ -81,6 +81,10 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </section> */}
+
+      <section className='min-h-screen  px-10'>
+
       </section>
 
     </div>

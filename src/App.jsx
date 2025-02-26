@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router'
 import Whyus from './components/Whyus'
 import Home from './components/Home'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -17,6 +18,8 @@ function App() {
       
 
       </Routes>
+      
+      <Footer/>
     </>
   )
 }
