@@ -8,7 +8,7 @@ const Home = () => {
     <div className="relative">
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-indigo-900 to-purple-900 text-white pt-32 md:pt-40 pb-16 md:pb-32 min-h-screen px-4">
+      <section className="bg-gradient-to-r from-indigo-900 to-purple-900 text-white pt-32 md:pt-40 pb-24 md:pb-20 min-h-screen px-4">
         <div className="container mx-auto max-w-6xl flex flex-col md:flex-row items-center justify-between">
           {/* Left Content */}
           <div className="md:w-1/2 mb-12 md:mb-0 max-sm:text-center">
@@ -18,6 +18,11 @@ const Home = () => {
             <p className="text-base md:text-lg lg:text-xl mb-8 text-gray-200">
               Get instant access to verified phone numbers across India. Power your business with accurate, up-to-date contact information.
             </p>
+
+            <button className='px-7 py-3 md:py-4 rounded-md font-medium md:font-semibold bg-white flex justify-center items-center gap-2 max-sm:mx-auto'>
+              <span className='text-transparent text-base md:text-[22px] bg-clip-text bg-gradient-to-r from-indigo-900 to-purple-900'> Boost Your Business</span>
+              <img className='w-[18px] md:w-6 pt-1' src='src/assets/boost.png' />
+            </button>
 
             {/* Trust Badges */}
             <div className="mt-8 flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
@@ -66,13 +71,13 @@ const Home = () => {
               howWorks.map((work) => (
                 <div key={work.id} className="flex  flex-col items-center justify-center py-8 px-6">
                   <div className="  w-20 h-20 rounded-full flex items-center justify-center mb-6">
-                    <img src={work.image}/>
+                    <img src={work.image} />
                   </div>
                   <h3 className="text-2xl font-bold mb-3 text-[#492385] ">{work.title}</h3>
                   <p className="text-center text-[14px] text-gray-700">{work.description}</p>
                 </div>
               ))
-          }
+            }
 
 
           </div>
@@ -83,7 +88,7 @@ const Home = () => {
       {/* India Map */}
       <section className=' bg-gradient-to-r from-indigo-900 to-purple-900 text-white '>
 
-        <div className=' md:px-10 py-28 flex items-center justify-center gap-10 lg:gap-32  md:flex-row flex-col '>
+        <div className=' md:px-10 py-16 flex items-center justify-center gap-10 lg:gap-32  md:flex-row flex-col '>
           <div>
             <img src='src/assets/india.png' className="drop-shadow-[0px_10px_0px_rgba(0,0,0,0.4)]" />
           </div>
@@ -102,6 +107,9 @@ const Home = () => {
             )
             )}
             </ul>
+            <button className='md:ml-5 mt-8 px-7 py-3 rounded-md font-semibold bg-white flex justify-center items-center gap-2 max-sm:mx-auto'>
+              <span className='text-transparent text-base md:text-lg bg-clip-text bg-gradient-to-r from-indigo-900 to-purple-900'> Shop Now</span>
+            </button>
           </div>
         </div>
       </section>

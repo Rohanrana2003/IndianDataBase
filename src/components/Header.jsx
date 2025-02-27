@@ -41,7 +41,7 @@ const Header = () => {
                                 Contact
                             </Link>
                             <button className="bg-gradient-to-r from-indigo-900 to-purple-900 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors mt-2 md:mt-0 md:ml-4">
-                                Get Started
+                                Shop Now
                             </button>
                         </div>
                     </div>
