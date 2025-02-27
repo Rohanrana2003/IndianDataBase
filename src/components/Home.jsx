@@ -1,3 +1,4 @@
+import { bulletPoints, howWorks } from "../utils/constants"
 
 
 
@@ -5,7 +6,7 @@ const Home = () => {
 
   return (
     <div className="relative">
-     
+
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-indigo-900 to-purple-900 text-white pt-32 md:pt-40 pb-16 md:pb-32 min-h-screen px-4">
         <div className="container mx-auto max-w-6xl flex flex-col md:flex-row items-center justify-between">
@@ -37,8 +38,8 @@ const Home = () => {
               <div className="bg-blue-100/20 p-4 sm:p-8 rounded-2xl backdrop-blur-lg">
                 <div className="bg-gray-300 h-48 sm:h-64 rounded-xl animate-pulse"></div>
               </div>
-              
-              <img src="src/assets/hero-main.png" alt="more" className="absolute h-40 sm:h-56 transform -translate-x-[50%] -translate-y-[50%] top-1/2 left-1/2"/>
+
+              <img src="src/assets/hero-main.png" alt="more" className="absolute h-40 sm:h-56 transform -translate-x-[50%] -translate-y-[50%] top-1/2 left-1/2" />
 
               {/* Stats Cards */}
               <div className="absolute -bottom-6 -left-6 bg-white text-gray-800 p-3 sm:p-4 rounded-xl shadow-lg">
@@ -54,37 +55,55 @@ const Home = () => {
         </div>
       </section>
 
-      {/* <section>
-        <div className="container mx-auto max-w-6xl py-16 px-4">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#492385] text-center mb-12">How It Works</h2>
+
+      {/* How It Works */}
+      <section className='bg-gray-200'>
+        <div className="container mx-auto max-w-6xl py-16 px-4 ">
+          <h2 className="text-[33px] sm:text-4xl md:text-5xl font-bold text-[#492385] text-center mb-12">How It Works</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="flex text-white flex-col items-center justify-center bg-indigo-900 py-8 px-6 rounded-xl shadow-lg">
-              <div className=" bg-gray-300 w-20 h-20 rounded-full flex items-center justify-center mb-6">
-                <img src="src/assets/how-1.png" />
-              </div>
-              <h3 className="text-xl font-bold mb-3">Get Started</h3>
-              <p className="text-center text-sm">Create an account with us and get instant access to our database of phone numbers.</p>
-            </div>
-            <div className="flex text-white flex-col items-center justify-center bg-indigo-900 py-8 px-6 rounded-xl shadow-lg">
-              <div className=" bg-gray-300 w-20 h-20 rounded-full flex items-center justify-center mb-6">
-                <img src="src/assets/how-2.png" />
-              </div>
-              <h3 className="text-xl font-bold mb-3">Make Payment</h3>
-              <p className="text-center text-sm">Use our search filters to find phone numbers based on location, industry, and more.</p>
-            </div>
-            <div className="flex text-white flex-col items-center justify-center bg-indigo-900 py-8 px-6 rounded-xl shadow-lg">
-              <div className=" bg-gray-300 w-20 h-20 rounded-full flex items-center justify-center mb-6">
-                <img src="src/assets/how-3.png" />
-              </div>
-              <h3 className="text-xl font-bold mb-3">Download</h3>
-              <p className="text-center text-sm">Download the phone numbers you need and start reaching out to potential customers.</p>
-            </div>
+
+            {
+              howWorks.map((work) => (
+                <div key={work.id} className="flex  flex-col items-center justify-center py-8 px-6">
+                  <div className="  w-20 h-20 rounded-full flex items-center justify-center mb-6">
+                    <img src={work.image}/>
+                  </div>
+                  <h3 className="text-2xl font-bold mb-3 text-[#492385] ">{work.title}</h3>
+                  <p className="text-center text-[14px] text-gray-700">{work.description}</p>
+                </div>
+              ))
+          }
+
+
           </div>
         </div>
-      </section> */}
+      </section>
 
-      <section className='min-h-screen  px-10'>
 
+      {/* India Map */}
+      <section className=' bg-gradient-to-r from-indigo-900 to-purple-900 text-white '>
+
+        <div className=' md:px-10 py-28 flex items-center justify-center gap-10 lg:gap-32  md:flex-row flex-col '>
+          <div>
+            <img src='src/assets/india.png' className="drop-shadow-[0px_10px_0px_rgba(0,0,0,0.4)]" />
+          </div>
+
+          <div className='max-w-lg pt-6'>
+            <h1 className='text-3xl lg:text-4xl mb-6 font-bold text-[#fff] text-center'>Get Your Perfect Indian Phone Number Today!</h1>
+
+            <ul className='ml-5 max-sm:pr-5'>{bulletPoints.map((point) => (
+
+              <div key={point.id}>
+
+                <li className='text-base lg:text-lg flex items-center gap-2 mt-2'>
+                  <span className='text-2xl font-semibold text-[#fff]'>✓</span>
+                  {point.title}</li>
+              </div>
+            )
+            )}
+            </ul>
+          </div>
+        </div>
       </section>
 
     </div>
