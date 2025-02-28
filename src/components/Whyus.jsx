@@ -1,3 +1,4 @@
+import { whyUs } from "../utils/constants"
 
 
 
@@ -10,36 +11,24 @@ const Whyus = () => {
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center mb-12">Why Choose Us?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {
+              whyUs.map(item => (
+                <div key={item.id} className="flex flex-col items-center justify-center bg-white text-gray-800 py-8 px-6 rounded-xl shadow-lg">
 
-            <div className="flex flex-col items-center justify-center bg-white text-gray-800 py-8 px-6 rounded-xl shadow-lg">
+                  <div className="bg-gray-300 w-20 h-20 rounded-full flex items-center justify-center mb-6">
 
-              <div className="bg-gray-300 w-20 h-20 rounded-full flex items-center justify-center mb-6">
-
-                <img src="src/assets/why-1.png" />
-              </div>
-              <h3 className="text-xl font-bold mb-3">Accurate Data</h3>
-              <p className="text-center text-sm">Our database is constantly updated and verified to ensure maximum accuracy and reliability for your business needs.</p>
-            </div>
-
-            <div className="flex flex-col items-center justify-center bg-white text-gray-800 py-8 px-6 rounded-xl shadow-lg">
-              <div className="bg-gray-300 w-20 h-20 rounded-full flex items-center justify-center mb-6">
-                <img src="src/assets/why-2.png" />
-              </div>
-              <h3 className="text-xl font-bold mb-3">Customer Support</h3>
-              <p className="text-center text-sm">Our dedicated team provides 24/7 support to assist with any queries or issues, ensuring seamless access to our database.</p>
-            </div>
-
-            <div className="flex flex-col items-center justify-center bg-white text-gray-800 py-8 px-6 rounded-xl shadow-lg">
-              <div className="w-20 h-20 rounded-full flex items-center justify-center mb-6">
-                <img src="src/assets/why-3.png" />
-              </div>
-              <h3 className="text-xl font-bold mb-3">Data Security</h3>
-              <p className="text-center text-sm">We employ robust encryption and security measures to safeguard our database and protect your sensitive information.</p>
-            </div>
-
+                    <img src={item.image}/>
+                  </div>
+                  <h3 className="text-xl font-bold mb-3">{item.title}</h3>
+                  <p className="text-center text-sm">{item.description}</p>
+                </div>
+              ))
+            }
           </div>
         </div>
+      </section>
 
+      <section className='min-h-[50vh] bg-white'>
       </section>
 
     </div>

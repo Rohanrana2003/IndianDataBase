@@ -1,5 +1,6 @@
 import { useState } from "react";
 import {Link} from 'react-router'
+import { headerButtons } from "../utils/constants";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -31,15 +32,14 @@ const Header = () => {
                     {/* Navigation Buttons */}
                     <div className={`md:flex space-x-8 items-center absolute md:relative top-full left-0 right-0 bg-gray-200 md:bg-transparent transition-all duration-300 ${isMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 md:opacity-100'} overflow-hidden md:max-h-full`}>
                         <div className="container mx-auto max-w-6xl px-4 py-4 md:py-0 flex flex-col md:flex-row items-start md:items-center md:gap-6 space-y-4 md:space-y-0">
-                            <Link to="" onClick={handleClick} className="text-base md:text-lg md:font-semibold text-[#492385] hover:text-[#19043b] ">
-                                Home
-                            </Link>
-                            <Link to="whyus" onClick={handleClick} className="text-base md:text-lg md:font-semibold text-[#492385] hover:text-[#19043b] ">
-                                Why Us
-                            </Link>
-                            <Link to="contact" onClick={handleClick} className="text-base md:text-lg md:font-semibold text-[#492385] hover:text-[#19043b] ">
-                                Contact
-                            </Link>
+                        {
+                            headerButtons.map( button => (
+                                <Link to={button.link} key={button.id} onClick={handleClick} className="text-base md:text-lg md:font-semibold text-[#492385] hover:text-[#19043b] ">
+                                    {button.title}
+                                </Link>
+                            ))
+                        }
+                          
                             <button className="bg-gradient-to-r from-indigo-900 to-purple-900 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors mt-2 md:mt-0 md:ml-4">
                                 Shop Now
                             </button>
