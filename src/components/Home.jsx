@@ -1,10 +1,11 @@
 import { bulletPoints, howWorks } from "../utils/constants"
 import Faq from "./subComponents/faq"
-
+import { useNavigate } from "react-router"
 
 
 const Home = () => {
 
+  const navigate = useNavigate();
   return (
     <div className="relative">
 
@@ -20,7 +21,8 @@ const Home = () => {
               Get instant access to verified phone numbers across India. Power your business with accurate, up-to-date contact information.
             </p>
 
-            <button className='px-7 py-3 md:py-4 rounded-md font-medium md:font-semibold bg-white flex justify-center items-center gap-2 max-sm:mx-auto'>
+            <button onClick={()=>navigate('/shop')}
+              className='px-7 py-3 md:py-4 rounded-md font-medium md:font-semibold bg-white flex justify-center items-center gap-2 max-sm:mx-auto'>
               <span className='text-transparent text-base md:text-[22px] bg-clip-text bg-gradient-to-r from-indigo-900 to-purple-900'> Boost Your Business</span>
               <img className='w-[18px] md:w-6 pt-1' src='src/assets/boost.png' />
             </button>
@@ -108,7 +110,8 @@ const Home = () => {
             )
             )}
             </ul>
-            <button className='md:ml-5 mt-8 px-7 py-3 rounded-md font-semibold bg-white flex justify-center items-center gap-2 max-sm:mx-auto'>
+            <button onClick={()=>navigate('/shop')}
+             className='md:ml-5 mt-8 px-7 py-3 rounded-md font-semibold bg-white flex justify-center items-center gap-2 max-sm:mx-auto'>
               <span className='text-transparent text-base md:text-lg bg-clip-text bg-gradient-to-r from-indigo-900 to-purple-900'> Shop Now</span>
             </button>
           </div>

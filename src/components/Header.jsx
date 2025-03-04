@@ -1,9 +1,10 @@
 import { useState } from "react";
-import {Link} from 'react-router'
+import {Link, useNavigate} from 'react-router'
 import { headerButtons } from "../utils/constants";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navigate = useNavigate();
 
   const handleClick = () =>{
     setIsMenuOpen(false);
@@ -40,7 +41,8 @@ const Header = () => {
                             ))
                         }
                           
-                            <button className="bg-gradient-to-r from-indigo-900 to-purple-900 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors mt-2 md:mt-0 md:ml-4">
+                            <button onClick={()=>navigate('/shop')}
+                                className="bg-gradient-to-r from-indigo-900 to-purple-900 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors mt-2 md:mt-0 md:ml-4">
                                 Shop Now
                             </button>
                         </div>
