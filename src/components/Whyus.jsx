@@ -1,8 +1,9 @@
 import { whyUs } from "../utils/constants"
-
+import Faq from "./subComponents/faq"
 
 
 const Whyus = () => {
+
   return (
     <div className='min-h-screen bg-gradient-to-r from-indigo-900 to-purple-900'>
 
@@ -17,7 +18,7 @@ const Whyus = () => {
 
                   <div className="bg-gray-300 w-20 h-20 rounded-full flex items-center justify-center mb-6">
 
-                    <img src={item.image}/>
+                    <img src={item.image} />
                   </div>
                   <h3 className="text-xl font-bold mb-3">{item.title}</h3>
                   <p className="text-center text-sm">{item.description}</p>
@@ -28,8 +29,8 @@ const Whyus = () => {
         </div>
       </section>
 
-      <section className='min-h-[50vh] bg-white'>
-      </section>
+      {/* Faq  */}
+     <Faq/>
 
     </div>
   )

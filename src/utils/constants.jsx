@@ -86,3 +86,26 @@ export const whyUs = [
         image: 'src/assets/why-3.png',
     },
 ]
+
+export const faqs = [
+    {
+      question: "Is this phone number database legal?",
+      answer: "Our database is compiled from publicly available sources and is fully compliant with Indian laws including the IT Act 2000 and PDP Bill 2019. We strictly follow all data privacy regulations."
+    },
+    {
+      question: "How often is the database updated?",
+      answer: "We update our database quarterly to ensure maximum accuracy. Subscribers receive free updates for 1 year after purchase."
+    },
+    {
+      question: "What payment methods do you accept?",
+      answer: "We accept all major credit/debit cards, UPI payments, and net banking through secure payment gateways."
+    },
+    {
+      question: "What format will I receive the data in?",
+      answer: "The database comes in CSV and Excel formats with columns for name, phone number, location, and telecom operator."
+    },
+    {
+      question: "How do I contact support?",
+      answer: "Email us at support@phonedatabase.in or use our 24/7 chat support. Response time is typically under 2 hours during business days."
+    }
+  ];

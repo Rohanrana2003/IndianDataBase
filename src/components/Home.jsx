@@ -1,4 +1,5 @@
 import { bulletPoints, howWorks } from "../utils/constants"
+import Faq from "./subComponents/faq"
 
 
 
@@ -113,6 +114,9 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Faq */}
+      <Faq/>
 
     </div>
   )
