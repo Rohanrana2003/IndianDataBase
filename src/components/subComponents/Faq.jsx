@@ -17,12 +17,12 @@ const Faq = () => {
         {faqs.map((faq, index) => (
           <div
             key={index}
-            className="border rounded-lg transition-all  ease-in duration-300"
+            className="border rounded-lg "
             style={{ borderColor: '#49238533' }}
           >
             <button
-              className="w-full px-6 py-4 rounded-lg text-left transition-all  ease-in duration-300  flex justify-between items-center bg-[#492385]  text-[15px] sm:text-base"
-              style={{ color: '#fff' }}
+              className={`w-full px-6 py-4 rounded-lg text-left flex justify-between items-center text-[15px] sm:text-base transition-all duration-500 hover:text-white hover:bg-[#492385] 
+              ${activeIndex === index ? 'bg-[#492385] text-white' : 'bg-white text-[#492385]'}`}
               onClick={() => setActiveIndex(activeIndex === index ? null : index)}
             >
               <span className="md:font-semibold">{faq.question}</span>
@@ -33,7 +33,7 @@ const Faq = () => {
 
             {activeIndex === index && (
               <div
-                className="px-6 py-4 bg-purple-50 rounded-lg transition-all  ease-in duration-300 text-sm sm:text-base"
+                className="px-6 py-4 bg-purple-50 rounded-lg text-sm sm:text-base"
                 style={{ color: '#4a5568' }}
               >
                 {faq.answer}
