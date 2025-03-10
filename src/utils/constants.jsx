@@ -106,7 +106,7 @@ export const faqs = [
     },
     {
       question: "How do I contact support?",
-      answer: "Email us at support@phonedatabase.in or use our 24/7 chat support. Response time is typically under 2 hours during business days."
+      answer: "Email us at info@younedia.com or contact +91 8253000032. Response time is typically under 1 hours during business days."
     }
   ];
 

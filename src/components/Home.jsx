@@ -17,10 +17,10 @@ const Home = () => {
 
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-indigo-900 to-purple-900 text-white pt-32 md:pt-40 pb-24 md:pb-20 min-h-screen px-4">
-        <div className="container mx-auto max-w-6xl flex flex-col md:flex-row items-center justify-between">
+        <div className="container mx-auto max-w-6xl flex flex-col-reverse gap-20 md:flex-row items-center justify-between">
           {/* Left Content */}
-          <div className="md:w-1/2 mb-12 md:mb-0 max-sm:text-center">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 leading-tight">
+          <div className="md:w-1/2 md:mb-0 max-sm:text-center">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 leading-tight">
               Access India&apos;s Largest Phone Number Database
             </h1>
             <p className="text-base md:text-lg lg:text-xl mb-8 text-gray-200">
@@ -47,7 +47,7 @@ const Home = () => {
           </div>
 
           {/* Right Illustration */}
-          <div className="md:w-[45%] lg:w-1/2 flex justify-center w-full mt-12 md:mt-0 px-6">
+          <div className="md:w-[45%] lg:w-1/2 flex justify-center w-full mt-2 md:mt-0 px-6">
             <div className="relative w-full max-w-sm lg:max-w-md">
               <div className="bg-blue-100/20 p-4 sm:p-8 rounded-2xl backdrop-blur-lg">
                 <div className="bg-gray-300 h-48 sm:h-64 rounded-xl animate-pulse"></div>

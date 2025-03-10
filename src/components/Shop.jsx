@@ -46,10 +46,13 @@ const Shop = () => {
               }
             </div>
 
-            <button
-              className="w-full bg-gradient-to-br from-[#79b4fc] to-[#0164D0] text-white px-6 py-2 rounded-lg hover:bg-blue-700 shadow-sm shadow-black  mt-6 text-bold text-lg hover:scale-105 transform transition duration-300">
-              Buy Before you Regret
-            </button>
+            <a className='w-full'
+             href='https://wa.me/+918307893660?text=Hello%20I%20am%20ready%20to%20buy%20your%20database.%20Please%20send%20me%20Payment%20method.' target='_blank'>
+              <button
+                className="w-full bg-gradient-to-br from-[#79b4fc] to-[#0164D0] text-white px-6 py-2 rounded-lg hover:bg-blue-700 shadow-sm shadow-black  mt-6 text-bold text-lg hover:scale-105 transform transition duration-300">
+                Buy Before you Regret
+              </button>
+            </a>
 
 
 
