@@ -48,7 +48,7 @@ const Contact = () => {
             <textarea id="message" name="message" placeholder="Your Message Here..."
               className="w-full bg-gray-200 rounded border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
           </div>
-          <button className="text-white mb-10 bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">Submit</button>
+          <button className="text-white mb-10 bg-[#3486E3] transition-all duration-300 border-0 py-2 px-6 focus:outline-none hover:bg-[#1c579b] rounded text-lg">Submit</button>
         </div>
       </div>
     </section>

@@ -28,9 +28,9 @@ const Home = () => {
             </p>
 
             <button onClick={()=>navigate('/shop')}
-              className='px-7 py-3 md:py-4 rounded-md font-medium md:font-semibold bg-white flex justify-center items-center gap-2 max-sm:mx-auto'>
+              className='group px-7 py-3 md:py-4 rounded-md font-medium md:font-semibold bg-white flex justify-center items-center gap-2 max-sm:mx-auto'>
               <span className='text-transparent text-base md:text-[22px] bg-clip-text bg-gradient-to-r from-indigo-900 to-purple-900'> Boost Your Business</span>
-              <img className='w-[18px] md:w-6 pt-1' src='src/assets/boost.png' />
+              <img className='  group-hover:translate-x-2 group-hover:-translate-y-2 transition-all duration-500 w-[18px] md:w-6 pt-1' src='src/assets/boost.png' />
             </button>
 
             {/* Trust Badges */}
@@ -41,7 +41,7 @@ const Home = () => {
                   <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-gray-400"></div>
                   <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-blue-400"></div>
                 </div>
-                <span className="text-sm text-center sm:text-left">Trusted by 10,000+ Businesses</span>
+                <span className="text-sm text-center sm:text-left">Trusted by 300+ Businesses</span>
               </div>
             </div>
           </div>
@@ -57,7 +57,7 @@ const Home = () => {
 
               {/* Stats Cards */}
               <div className="absolute -bottom-6 -left-6 bg-white text-gray-800 p-3 sm:p-4 rounded-xl shadow-lg">
-                <h3 className="text-xl sm:text-2xl font-bold text-indigo-900">250M+</h3>
+                <h3 className="text-xl sm:text-2xl font-bold text-indigo-900">250K+</h3>
                 <p className="text-xs sm:text-sm">Phone Numbers</p>
               </div>
               <div className="absolute -top-6 -right-6 bg-white text-gray-800 p-3 sm:p-4 rounded-xl shadow-lg">
@@ -117,7 +117,8 @@ const Home = () => {
             )}
             </ul>
             <button onClick={()=>navigate('/shop')}
-             className='md:ml-5 mt-8 px-7 py-3 rounded-md font-semibold bg-white flex justify-center items-center gap-2 max-sm:mx-auto'>
+             className='md:ml-5 mt-8 px-7 py-3 rounded-md font-semibold bg-white flex justify-center items-center gap-2 max-sm:mx-auto
+              hover:scale-105 transform transition duration-300'>
               <span className='text-transparent text-base md:text-lg bg-clip-text bg-gradient-to-r from-indigo-900 to-purple-900'> Shop Now</span>
             </button>
           </div>
