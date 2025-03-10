@@ -1,8 +1,13 @@
+import { useEffect } from "react"
 import { whyUs } from "../utils/constants"
 import Faq from "./subComponents/faq"
 
 
 const Whyus = () => {
+
+   useEffect(() => {
+      window.scrollTo(0, 0)
+    }, [])
 
   return (
     <div className='min-h-screen bg-gradient-to-r from-indigo-900 to-purple-900'>

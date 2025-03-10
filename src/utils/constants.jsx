@@ -109,3 +109,29 @@ export const faqs = [
       answer: "Email us at support@phonedatabase.in or use our 24/7 chat support. Response time is typically under 2 hours during business days."
     }
   ];
+
+export const cardPoints = [
+    {
+        description: 'Name, Phone Number, Email, City and Address are Available.',
+        image: 'src/assets/check.png',
+        id: 1
+    },
+    {
+        description: '70% to 85% Accuracy',
+        image: 'src/assets/check.png',
+        id: 2
+    },
+    {
+        description: 'Data Replacement Policy',
+        image: 'src/assets/check.png',
+        id: 3
+    },{
+        description: '70% to 85% Accuracy',
+        image: 'src/assets/check.png',
+        id: 3
+    },{
+        description: 'Data Replacement Policy',
+        image: 'src/assets/check.png',
+        id: 3
+    },
+]

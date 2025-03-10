@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { bulletPoints, howWorks } from "../utils/constants"
 import Faq from "./subComponents/faq"
 import { useNavigate } from "react-router"
@@ -6,6 +7,11 @@ import { useNavigate } from "react-router"
 const Home = () => {
 
   const navigate = useNavigate();
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
   return (
     <div className="relative">
 

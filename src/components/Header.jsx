@@ -16,7 +16,8 @@ const Header = () => {
             <header className="fixed w-full top-0 left-0 right-0 bg-gray-200 shadow-lg z-50">
                 <nav className="container mx-auto max-w-6xl px-4 py-4 flex justify-between items-center">
                     {/* Logo */}
-                    <Link to='/' onClick={handleClick} className="text-[#492385] text-xl md:text-2xl lg:text-[26px] font-bold">
+                    <Link to='/' onClick={handleClick} 
+                        className="text-[#492385] text-xl md:text-2xl lg:text-[26px] font-bold">
                         Phone<span className="">Data</span>
                     </Link>
 

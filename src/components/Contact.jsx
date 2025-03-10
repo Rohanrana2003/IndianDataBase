@@ -1,5 +1,12 @@
+import {useEffect } from 'react'
+
 
 const Contact = () => {
+
+   useEffect(() => {
+      window.scrollTo(0, 0)
+    }, [])
+
   return (
     <section className="text-gray-600 body-font relative ">
 
@@ -17,7 +24,7 @@ const Contact = () => {
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
-              <a className="text-purple-500 leading-relaxed">info@younedia.in</a>
+              <a href='mailto:info@younedia.com' className="text-purple-500 leading-relaxed">info@younedia.in</a>
               <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
               <p className="leading-relaxed">+91 82530000323</p>
             </div>
