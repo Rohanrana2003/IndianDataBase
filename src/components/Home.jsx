@@ -23,7 +23,7 @@ const Home = () => {
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 leading-tight">
               Access India&apos;s Largest Phone Number Database
             </h1>
-            <p className="text-base md:text-lg lg:text-xl mb-8 text-gray-200">
+            <p className="text-[15px] md:text-lg lg:text-xl mb-8 text-gray-200">
               Get instant access to verified phone numbers across India. Power your business with accurate, up-to-date contact information.
             </p>
 

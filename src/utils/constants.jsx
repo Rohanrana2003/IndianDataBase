@@ -117,21 +117,22 @@ export const cardPoints = [
         id: 1
     },
     {
-        description: '70% to 85% Accuracy',
+        description: 'Data Replacement Policy',
         image: 'src/assets/check.png',
         id: 2
     },
     {
-        description: 'Data Replacement Policy',
-        image: 'src/assets/check.png',
-        id: 3
-    },{
         description: '70% to 85% Accuracy',
         image: 'src/assets/check.png',
         id: 3
-    },{
-        description: 'Data Replacement Policy',
+    },
+    {
+        description: 'High-Quality Leads',
         image: 'src/assets/check.png',
-        id: 3
+        id: 4
+    },{
+        description: ' Secure Payment',
+        image: 'src/assets/check.png',
+        id: 5
     },
 ]

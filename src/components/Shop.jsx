@@ -14,9 +14,9 @@ const Shop = () => {
       <div className=" mx-auto text-center max-w-6xl flex flex-col items-center justify-center h-full px-3">
 
 
-        <h2 className='text-white text-[21px] md:text-[26px] font-bold mb-4'>Business Owners Data Provider</h2>
+        <h2 className='text-white text-[21px] md:text-[26px] font-bold mb-4'>Phone Numbers Data Provider</h2>
 
-        <p className='text-sm md:text-lg mb-10 px-5'>We Provide Business Man Database, Corporate Companies Data, Business Owners Data’ professional database, and company Directors Data’ business email database, B2C Data, and B2B database in India.</p>
+        <p className='text-sm md:text-lg mb-10 px-5'>Get a verified and high-quality Indian phone number database for marketing, business leads, and customer outreach. <span className='max-md:hidden'> Boost your sales with authentic and up-to-date mobile number lists.</span></p>
 
         {/* Main Section */}
         <div className=' flex flex-col md:flex-row justify-center items-center gap-10  lg:gap-48 max-sm:px-5'>
