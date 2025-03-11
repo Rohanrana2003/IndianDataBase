@@ -33,13 +33,13 @@ const Home = () => {
               <img className='  group-hover:translate-x-2 group-hover:-translate-y-2 transition-all duration-500 w-[18px] md:w-6 pt-1' src='src/assets/boost.png' />
             </button>
 
-            {/* Trust Badges */}
+            {/* Trust Badges */} 
             <div className="mt-8 flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
               <div className="flex items-center gap-3">
                 <div className="flex -space-x-2">
-                  <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-red-400"></div>
-                  <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-gray-400"></div>
-                  <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-blue-400"></div>
+                  <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-full overflow-hidden"><img src='src/assets/logo2.png'/></div>
+                  <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-[#F9A334] overflow-hidden"><img src='src/assets/logo5.png'/></div>
+                  <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-gray-200 overflow-hidden"><img src='src/assets/logo1.png'/></div>
                 </div>
                 <span className="text-sm text-center sm:text-left">Trusted by 300+ Businesses</span>
               </div>

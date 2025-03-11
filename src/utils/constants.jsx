@@ -65,7 +65,7 @@ export const howWorks = [
         id: 3
     },
 ]
-
+ 
 export const whyUs = [
     {
         id:'1',
