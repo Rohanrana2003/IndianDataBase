@@ -22,13 +22,13 @@ const Shop = () => {
         <div className=' flex flex-col md:flex-row justify-center items-center gap-10  lg:gap-48 max-sm:px-5'>
 
           {/* Database Img */}
-          <img className='w-56 md:w-80 ' src='src/assets/database1.png' />
+          <img className='w-56 md:w-80 ' src='src/assets/database1.webp' />
 
           {/* Shop Card */}
           <div className='shadow-lg pb-10 shadow-black bg-white md:w-[350px] max-w-[350px] rounded-2xl flex flex-col items-start px-6 md:px-10 '>
 
             <div className='flex items-center justify-center gap-2'>
-              <img className='w-10 mt-5 ' src='src/assets/trust.png' />
+              <img className='w-10 mt-5 ' src='src/assets/trust.webp' />
               <p className='text-[20px] md:text-[22px] text-[#492385] mx-auto mb-4 pt-8 font-bold'>BEST DEAL FOR YOU!</p>
 
             </div>

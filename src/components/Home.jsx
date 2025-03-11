@@ -30,16 +30,17 @@ const Home = () => {
             <button onClick={()=>navigate('/shop')}
               className='group px-7 py-3 md:py-4 rounded-md font-medium md:font-semibold bg-white flex justify-center items-center gap-2 max-sm:mx-auto'>
               <span className='text-transparent text-base md:text-[22px] bg-clip-text bg-gradient-to-r from-indigo-900 to-purple-900'> Boost Your Business</span>
-              <img className='  group-hover:translate-x-2 group-hover:-translate-y-2 transition-all duration-500 w-[18px] md:w-6 pt-1' src='src/assets/boost.png' />
+              <img className='  group-hover:translate-x-2 group-hover:-translate-y-2 transition-all duration-500 w-[18px] md:w-6 pt-1' src='src/assets/boost.webp' />
             </button>
 
             {/* Trust Badges */} 
             <div className="mt-8 flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
               <div className="flex items-center gap-3">
                 <div className="flex -space-x-2">
-                  <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-full overflow-hidden"><img src='src/assets/logo2.png'/></div>
-                  <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-[#F9A334] overflow-hidden"><img src='src/assets/logo5.png'/></div>
-                  <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-gray-200 overflow-hidden"><img src='src/assets/logo1.png'/></div>
+                  <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-[#F9A334] overflow-hidden"><img src='src/assets/logo3.webp'/></div>
+                  <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-white overflow-hidden"><img src='src/assets/logo1.webp'/></div>
+                  <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full overflow-hidden"><img src='src/assets/logo2.webp'/></div>
+
                 </div>
                 <span className="text-sm text-center sm:text-left">Trusted by 300+ Businesses</span>
               </div>
@@ -53,7 +54,7 @@ const Home = () => {
                 <div className="bg-gray-300 h-48 sm:h-64 rounded-xl animate-pulse"></div>
               </div>
 
-              <img src="src/assets/hero-main.png" alt="more" className="absolute h-40 sm:h-56 transform -translate-x-[50%] -translate-y-[50%] top-1/2 left-1/2" />
+              <img src="src/assets/hero-main.webp" alt="more" className="absolute h-40 sm:h-56 transform -translate-x-[50%] -translate-y-[50%] top-1/2 left-1/2" />
 
               {/* Stats Cards */}
               <div className="absolute -bottom-6 -left-6 bg-white text-gray-800 p-3 sm:p-4 rounded-xl shadow-lg">
@@ -87,8 +88,6 @@ const Home = () => {
                 </div>
               ))
             }
-
-
           </div>
         </div>
       </section>
@@ -99,7 +98,7 @@ const Home = () => {
 
         <div className=' md:px-10 py-16 flex items-center justify-center gap-10 lg:gap-32  md:flex-row flex-col '>
           <div>
-            <img src='src/assets/india.png' className="drop-shadow-[0px_10px_0px_rgba(0,0,0,0.4)]" />
+            <img src='src/assets/india.webp' className="drop-shadow-[0px_10px_0px_rgba(0,0,0,0.4)]" />
           </div>
 
           <div className='max-w-lg pt-6'>

@@ -49,19 +49,19 @@ export const howWorks = [
     {
         title: 'Get Started',
         description: 'Create an account with us and get instant access to our database of phone numbers.',
-        image: 'src/assets/how-1.png',
+        image: 'src/assets/how-1.webp',
         id: 1
     },
     {
         title: 'Make Payment',
         description: 'Use our search filters to find phone numbers based on location, industry, and more.',
-        image: 'src/assets/how-2.png',
+        image: 'src/assets/how-2.webp',
         id: 2
     },
     {
         title: 'Download',
         description: 'Download the phone numbers you need and start reaching out to potential customers.',
-        image: 'src/assets/how-3.png',
+        image: 'src/assets/how-3.webp',
         id: 3
     },
 ]
@@ -71,19 +71,19 @@ export const whyUs = [
         id:'1',
         title: 'Accurate Data',
         description: 'Our database is constantly updated and verified to ensure maximum accuracy and reliability for your business needs.',
-        image: 'src/assets/why-1.png',
+        image: 'src/assets/why-1.webp',
     },
     {
         id:'2',
         title: 'Customer Support',
         description: 'Our dedicated team provides 24/7 support to assist with any queries or issues, ensuring seamless access to our database.',
-        image: 'src/assets/why-2.png',
+        image: 'src/assets/why-2.webp',
     },
     {
         id:'3',
         title: 'Data Security',
         description: 'We employ robust encryption and security measures to safeguard our database and protect your sensitive information.',
-        image: 'src/assets/why-3.png',
+        image: 'src/assets/why-3.webp',
     },
 ]
 
@@ -113,26 +113,26 @@ export const faqs = [
 export const cardPoints = [
     {
         description: 'Name, Phone Number, Email, City and Address are Available.',
-        image: 'src/assets/check.png',
+        image: 'src/assets/check.webp',
         id: 1
     },
     {
         description: 'Data Replacement Policy',
-        image: 'src/assets/check.png',
+        image: 'src/assets/check.webp',
         id: 2
     },
     {
         description: '70% to 85% Accuracy',
-        image: 'src/assets/check.png',
+        image: 'src/assets/check.webp',
         id: 3
     },
     {
         description: 'High-Quality Leads',
-        image: 'src/assets/check.png',
+        image: 'src/assets/check.webp',
         id: 4
     },{
         description: ' Secure Payment',
-        image: 'src/assets/check.png',
+        image: 'src/assets/check.webp',
         id: 5
     },
 ]
