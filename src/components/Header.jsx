@@ -10,14 +10,14 @@ const Header = () => {
     }
 
     return (
-        <div className="relative">
+        <div className="relative font-serif">
             {/* Header Section */}
             <header className="fixed w-full top-0 left-0 right-0 bg-gray-200 shadow-lg z-50">
                 <nav className="container mx-auto max-w-6xl px-4 py-4 flex justify-between items-center">
                     {/* Logo */}
                     <Link to='/' onClick={handleClick}
-                        className="text-[#492385] flex items-center gap-3 text-xl md:text-2xl lg:text-[26px] font-bold">
-                        <span className="">YOUNEDIA DATABASE</span>
+                        className=" text-[#492385] flex items-center gap-3 text-xl md:text-2xl lg:text-[26px] font-bold">
+                        <span className="">Younedia Database</span>
                     </Link>
 
                     {/* Mobile Menu Button */}
@@ -42,7 +42,7 @@ const Header = () => {
                             }
 
                             <Link to='shop' onClick={handleClick}
-                                className="bg-gradient-to-r from-indigo-900 to-purple-900 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors mt-2 md:mt-0 md:ml-4">
+                                className=" bg-gradient-to-r from-indigo-900 to-purple-900 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors mt-2 md:mt-0 md:ml-4">
                                 Shop Now
                             </Link>
                         </div>

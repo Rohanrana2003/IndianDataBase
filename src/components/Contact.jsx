@@ -11,7 +11,7 @@ const Contact = () => {
     <section className="text-gray-600 body-font relative ">
 
     <div className='w-full h-72 bg-gradient-to-r from-indigo-900 to-purple-900 flex items-center justify-center'>
-      <h1 className="text-white mt-12 text-4xl md:text-6xl font-bold">Contact Us</h1>
+      <h1 className="font-serif text-white mt-12 text-4xl md:text-6xl font-medium">Contact Us</h1>
     </div>
       <div className="container px-5 py-16  lg:pl-16 mx-auto flex flex-col-reverse md:flex-row md:gap-10 lg:gap-0 ">
         <div className=" min-h-72 md:w-1/2  bg-gray-200 rounded-lg overflow-hidden  p-10 flex items-end justify-start relative">

@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { bulletPoints, howWorks } from "../utils/constants"
 import Faq from "./subComponents/faq"
 import { useNavigate } from "react-router"
+import "tailwindcss-animated";
 
 
 const Home = () => {
@@ -13,23 +14,23 @@ const Home = () => {
   }, [])
   
   return (
-    <div className="relative">
+    <div className="relative ">
 
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-indigo-900 to-purple-900 text-white pt-32 md:pt-40 pb-24 md:pb-20 min-h-screen px-4">
         <div className="container mx-auto max-w-6xl flex flex-col-reverse gap-20 md:flex-row items-center justify-between">
           {/* Left Content */}
-          <div className="md:w-1/2 md:mb-0 max-sm:text-center">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 leading-tight">
-              Access India&apos;s Largest Phone Number Database
+          <div className="animate-fade animate-duration-[2000ms] md:w-1/2 md:mb-0 max-sm:text-center">
+            <h1 className=" font-serif text-3xl sm:text-4xl md:text-5xl font-normal mb-3 leading-tight">
+              Access India&apos;s Largest Phone Number <p className=' md:animate-typing whitespace-nowrap overflow-hidden'>Database!</p> 
             </h1>
-            <p className="text-[15px] md:text-lg lg:text-xl mb-8 text-gray-200">
-              Get instant access to verified phone numbers across India. Power your business with accurate, up-to-date contact information.
+            <p className="text-[15px] md:text-lg lg:text-lg mb-8 text-gray-200">
+              Get instant access to verified phone numbers across India. Power your business with up-to-date contact information.
             </p>
 
             <button onClick={()=>navigate('/shop')}
               className='group px-7 py-3 md:py-4 rounded-md font-medium md:font-semibold bg-white flex justify-center items-center gap-2 max-sm:mx-auto'>
-              <span className='text-transparent text-base md:text-[22px] bg-clip-text bg-gradient-to-r from-indigo-900 to-purple-900'> Boost Your Business</span>
+              <p className=' text-transparent text-base md:text-[22px] bg-clip-text bg-gradient-to-r from-indigo-900 to-purple-900'> Boost Your Business</p>
               <img className='  group-hover:translate-x-2 group-hover:-translate-y-2 transition-all duration-500 w-[18px] md:w-6 pt-1' src='src/assets/boost.webp' />
             </button>
 
@@ -48,21 +49,21 @@ const Home = () => {
           </div>
 
           {/* Right Illustration */}
-          <div className="md:w-[45%] lg:w-1/2 flex justify-center w-full mt-2 md:mt-0 px-6">
+          <div className="font-serif md:w-[45%] lg:w-1/2 flex justify-center w-full mt-2 md:mt-0 px-8 md:px-4">
             <div className="relative w-full max-w-sm lg:max-w-md">
               <div className="bg-blue-100/20 p-4 sm:p-8 rounded-2xl backdrop-blur-lg">
                 <div className="bg-gray-300 h-48 sm:h-64 rounded-xl animate-pulse"></div>
               </div>
 
-              <img src="src/assets/hero-main.webp" alt="more" className="absolute h-40 sm:h-56 transform -translate-x-[50%] -translate-y-[50%] top-1/2 left-1/2" />
+              <img src="src/assets/hero-main.webp" alt="more" className=" absolute h-40 sm:h-56 transform -translate-x-[50%] -translate-y-[50%] top-1/2 left-1/2" />
 
               {/* Stats Cards */}
               <div className="absolute -bottom-6 -left-6 bg-white text-gray-800 p-3 sm:p-4 rounded-xl shadow-lg">
-                <h3 className="text-xl sm:text-2xl font-bold text-indigo-900">250K+</h3>
+                <h3 className="text-base sm:text-2xl font-bold text-indigo-900">250K+</h3>
                 <p className="text-xs sm:text-sm">Phone Numbers</p>
               </div>
               <div className="absolute -top-6 -right-6 bg-white text-gray-800 p-3 sm:p-4 rounded-xl shadow-lg">
-                <h3 className="text-xl sm:text-2xl font-bold text-purple-600">Real-time</h3>
+                <h3 className="text-base sm:text-2xl font-bold text-purple-600">Real-time</h3>
                 <p className="text-xs sm:text-sm">Data Updates</p>
               </div>
             </div>

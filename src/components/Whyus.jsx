@@ -13,10 +13,10 @@ const Whyus = () => {
     <div className='min-h-screen bg-gradient-to-r from-indigo-900 to-purple-900'>
 
 
-      <section className=" py-32 px-4">
+      <section className=" py-32 px-4 md:pt-40">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center mb-12">Why Choose Us?</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-medium text-white text-center mb-12">Why Choose Us?</h2>
+          <div className="animate-fade-up grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {
               whyUs.map(item => (
                 <div key={item.id} className="flex flex-col items-center justify-center bg-white text-gray-800 py-8 px-6 rounded-xl shadow-lg">
