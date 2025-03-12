@@ -41,7 +41,6 @@ const Home = () => {
                   <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-[#F9A334] overflow-hidden"><img src='src/assets/logo3.webp'/></div>
                   <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-white overflow-hidden"><img src='src/assets/logo1.webp'/></div>
                   <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full overflow-hidden"><img src='src/assets/logo2.webp'/></div>
-
                 </div>
                 <span className="text-sm text-center sm:text-left">Trusted by 300+ Businesses</span>
               </div>

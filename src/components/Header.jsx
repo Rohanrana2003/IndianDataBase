@@ -16,7 +16,7 @@ const Header = () => {
                 <nav className="container mx-auto max-w-6xl px-4 py-4 flex justify-between items-center">
                     {/* Logo */}
                     <Link to='/' onClick={handleClick}
-                        className=" text-[#492385] flex items-center gap-3 text-xl md:text-2xl lg:text-[26px] font-bold">
+                        className="text-[#492385] flex items-center gap-3 text-xl md:text-2xl lg:text-[26px] font-bold">
                         <span className="">Younedia Database</span>
                     </Link>
 

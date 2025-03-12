@@ -31,7 +31,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="mx-auto lg:w-1/3 md:w-1/2 bg-transparent flex flex-col md:ml-auto w-full md:py-8 mt-0 md:mt-0">
-          <h2 className="text-gray-800 text-3xl md:text-4xl mb-4 font-medium title-font">Have any query?</h2>
+          <h2 className="text-gray-800 text-3xl md:text-4xl mb-4 font-medium title-font">Having any query?</h2>
           
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-700">Name</label>
