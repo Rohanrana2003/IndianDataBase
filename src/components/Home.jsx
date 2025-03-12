@@ -17,7 +17,7 @@ const Home = () => {
     <div className="relative ">
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-indigo-900 to-purple-900 text-white pt-32 md:pt-40 pb-24 md:pb-20 min-h-screen px-4">
+      <section className="bg-gradient-to-r from-indigo-900 to-purple-900 text-white pt-32 md:pt-40 2xl:pt-60 pb-24 md:pb-20 min-h-screen px-4">
         <div className="container mx-auto max-w-6xl flex flex-col-reverse gap-20 md:flex-row items-center justify-between">
           {/* Left Content */}
           <div className="animate-fade animate-duration-[2000ms] md:w-1/2 md:mb-0 max-sm:text-center">
@@ -49,7 +49,7 @@ const Home = () => {
           </div>
 
           {/* Right Illustration */}
-          <div className="font-serif md:w-[45%] lg:w-1/2 flex justify-center w-full mt-2 md:mt-0 px-8 md:px-4">
+          <div className=" font-serif md:w-[45%] lg:w-1/2 flex justify-center w-full mt-2 md:mt-0 px-8 md:px-4">
             <div className="relative w-full max-w-sm lg:max-w-md">
               <div className="bg-blue-100/20 p-4 sm:p-8 rounded-2xl backdrop-blur-lg">
                 <div className="bg-gray-300 h-48 sm:h-64 rounded-xl animate-pulse"></div>

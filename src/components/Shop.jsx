@@ -13,9 +13,9 @@ const Shop = () => {
 
       <div className=" mx-auto text-center max-w-6xl flex flex-col items-center justify-center h-full px-3">
 
-        <h2 className='animate-fade font-serif text-white text-[21px] md:text-[26px] font-bold mb-4'>Phone Numbers Data Provider</h2>
+        <h2 className='animate-fade-up font-serif text-white text-[21px] md:text-[26px] font-bold mb-4'>Phone Numbers Data Provider</h2>
 
-        <p className='animate-fade text-sm md:text-lg mb-10 px-5'>Get a verified and high-quality Indian phone number database for marketing, business leads, and customer outreach. <span className='max-md:hidden'> Boost your sales with authentic and up-to-date mobile number lists.</span></p>
+        <p className='animate-fade-up text-sm md:text-lg mb-10 px-5'>Get a verified and high-quality Indian phone number database for marketing, business leads, and customer outreach. <span className='max-md:hidden'> Boost your sales with authentic and up-to-date mobile number lists.</span></p>
 
         {/* Main Section */}
         <div className=' flex flex-col md:flex-row justify-center items-center gap-10  lg:gap-48 max-sm:px-5'>
